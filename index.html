@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <h1>Calculator</h1>
+            <p>This page is a calculator able to execute simple arithmetic operations between two given values. <span class="bold">To start, input your two values in the text boxes below then click on the desired operation.</span></p>
+
+            <input type="number" value="0" id="value1"><input type="number" value="0" id="value2">
+            <br>
+            <button type="button" onclick="add()">+</button>
+            <button type="button" onclick="subtract()">-</button>
+            <button type="button" onclick="multiply()">*</button>
+            <button type="button" onclick="divide()">/</button>
+            <button type="button" onclick="mod()">%</button>
+
+            <p id="result">The results will be displayed here.</p>
+        </div>
+    </div>
+</body>
+</html>
